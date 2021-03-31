@@ -1,0 +1,5 @@
+mutation Signup($params: UserSignUpInput!) {
+  signup(params: $params) {
+    ...UserResponseFragment
+  }
+}
